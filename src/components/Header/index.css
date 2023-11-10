@@ -1,0 +1,48 @@
+/* Write your CSS code here */
+
+.main-nav-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.logo-container {
+  display: flex;
+
+  align-items: center;
+}
+
+.wave-logo {
+  height: 30px;
+  width: 30px;
+}
+
+.wave-head {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 25px;
+  margin: 10px;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  margin: 10px;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.items {
+  color: #12022f;
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+}
